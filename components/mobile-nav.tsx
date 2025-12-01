@@ -58,7 +58,14 @@ export function MobileNav() {
                                 功能特性
                             </Link>
                             <Link
-                                href="#community"
+                                href="/announcements"
+                                className="transition-colors hover:text-primary"
+                                onClick={() => setOpen(false)}
+                            >
+                                更新公告
+                            </Link>
+                            <Link
+                                href="/#community"
                                 className="transition-colors hover:text-primary"
                                 onClick={() => setOpen(false)}
                             >

@@ -21,7 +21,13 @@ export function SiteHeader() {
                             功能特性
                         </Link>
                         <Link
-                            href="#community"
+                            href="/announcements"
+                            className="transition-colors hover:text-foreground/80 text-foreground/60"
+                        >
+                            更新公告
+                        </Link>
+                        <Link
+                            href="/#community"
                             className="transition-colors hover:text-foreground/80 text-foreground/60"
                         >
                             社区与支持
