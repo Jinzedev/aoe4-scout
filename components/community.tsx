@@ -58,18 +58,7 @@ export function Community() {
                         <div className="h-12 w-12 rounded-full bg-red-100 dark:bg-red-900/30 flex items-center justify-center mb-6">
                             <Heart className="h-6 w-6 text-red-600 dark:text-red-400" />
                         </div>
-                        <h3 className="text-xl font-semibold mb-2">资助项目开发</h3>
-                        <p className="text-muted-foreground text-center mb-6">
-                            如果这个项目对你有帮助，欢迎请作者喝杯咖啡
-                        </p>
-                        <div className="relative w-48 h-48 rounded-xl overflow-hidden border-2 border-muted mb-6">
-                            <Image
-                                src="/sponsor.png"
-                                alt="Sponsor QR Code"
-                                fill
-                                className="object-cover"
-                            />
-                        </div>
+
                         <p className="text-sm font-medium text-foreground">
                             感谢每一份支持！
                         </p>
